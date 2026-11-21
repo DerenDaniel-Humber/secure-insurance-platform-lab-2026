@@ -1,0 +1,8 @@
+node_modules/
+.next/
+.env
+.env.local
+backend/certs/*.pem
+backend/data/db.json
+frontend/certificates/
+docs/rendered/

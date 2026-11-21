@@ -77,17 +77,8 @@ These credentials are public demo data and must never be reused outside local de
 
 Run `cd backend && npm test` for the automated authorization and workflow suite (generate certificates first to run the HTTPS integration case). Scenario results and the frontend screenshot checklist are in `docs/test-results.md`. The implementation report is in `docs/lab-report.docx` and `docs/lab-report.pdf`; personalize the report and add your own screenshots before submitting.
 
-## GitHub submission
+## Course submission
 
-The ZIP contains the source project, not a published GitHub repository. Create a repository in your own GitHub account, then from this folder run:
+Submit this public repository URL with the implementation report and genuine screenshots of the running customer, underwriting, claims and administrator screens. The report and screenshot checklist are included under `docs/`. Add the captured PNG files to `docs/screenshots/` and include them in the report before you submit.
 
-```bash
-git init
-git add .
-git commit -m "Build secure insurance platform lab"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/northstar-insurance-platform.git
-git push -u origin main
-```
-
-Replace `YOUR-USERNAME` with your GitHub username and submit that repository URL with the report and screenshots. Do not commit `.env`, generated certificates, `node_modules`, or the runtime JSON database.
+Do not commit `.env`, generated certificates, `node_modules`, or the runtime JSON database.
