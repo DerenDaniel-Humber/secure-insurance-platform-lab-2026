@@ -75,10 +75,10 @@ These credentials are public demo data and must never be reused outside local de
 
 ## Testing
 
-Run `cd backend && npm test` for the automated authorization and workflow suite (generate certificates first to run the HTTPS integration case). Scenario results and the frontend screenshot checklist are in `docs/test-results.md`. The implementation report is in `docs/lab-report.docx` and `docs/lab-report.pdf`; personalize the report and add your own screenshots before submitting.
+Run `cd backend && npm test` for the automated authorization and workflow suite (generate certificates first to run the HTTPS integration case). Scenario results and the frontend screenshot checklist are in `docs/test-results.md`. The implementation report is in `docs/lab-report.docx` and `docs/lab-report.pdf`; review the report and the genuine screenshots in `docs/screenshots/` before submitting.
 
 ## Course submission
 
-Submit this public repository URL with the implementation report and genuine screenshots of the running customer, underwriting, claims and administrator screens. The report and screenshot checklist are included under `docs/`. Add the captured PNG files to `docs/screenshots/` and include them in the report before you submit.
+Submit this public repository URL with the implementation report and genuine screenshots of the running customer, underwriting, claims and administrator screens. The report includes the captured screens from `docs/screenshots/`: customer dashboard, customer policies, underwriting requests, claims queue, administrator controls, and a denied-access response. The HTTPS health route is verified by the automated integration test.
 
 Do not commit `.env`, generated certificates, `node_modules`, or the runtime JSON database.
